@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
 
     }
     public static void task1 ()    {
@@ -74,13 +75,21 @@ public class Main {
         byte ourMonth=1*30;
         int totalThird=ourMonth*hours*minutes*oneMinutes;
         System.out.println("За"+month+"месяц машина произвела" +totalThird+ "штук бутылок");
+    }
 
-
-
+    public static void task5 ()    {
+        System.out.println ("задача 5");
+        byte totalCans=120;
+        byte whiteJar=2;
+        byte brownJar=4;
+        byte ourCans= (byte) (whiteJar+brownJar);
+        byte ourClass= (byte) (totalCans/ourCans);
+        byte ourWhite= (byte) (ourClass*whiteJar);
+        byte ourBrown= (byte) (ourClass*brownJar);
+        System.out.println("В школе, где"+ourClass+"классов, нужно"+ourWhite+"банок белой краски и"+ourBrown+"банок коричневой краски");
 
 
     }
-
 
 
 }
