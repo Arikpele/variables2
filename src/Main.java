@@ -6,6 +6,8 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
+        task8();
 
     }
     public static void task1 ()    {
@@ -106,11 +108,32 @@ public class Main {
         System.out.println("Общий вес завтрака "+total+"граммов");
         short kg= (short) (total*0.1);
         System.out.println("Общий вес завтрака "+kg+"килограммов");
-
-
-
-
+    }
+    public static void task7 ()    {
+        System.out.println ("задача 7");
+        byte totalWeight=7;
+        short totalWeightgr= (short) (totalWeight*1000);
+        short oneDayfirsttask=  250;
+        short oneDaysecondttask=  500;
+        short firstTask= (short) (totalWeightgr/oneDayfirsttask);
+        short secondTask= (short) (totalWeightgr/oneDaysecondttask);
+        float averageDays= (firstTask/secondTask);
+        System.out.println(+firstTask+"дней нужно спортсмену,чтобы оставаться в своей весовой категоии,с учетом если он будет терять"+oneDayfirsttask+"граммов,если же он будет терять по"+oneDaysecondttask+"граммов, то ему понадобиться"+secondTask+"дней.В среднем уйдет "+averageDays+"дней на похудение");
 
     }
-
+    public static void task8 ()    {
+        System.out.println ("задача 8");
+        int salaryMasha=67760;
+        int salaryDenis=83690;
+        int salaryKristina=76230;
+        double increaseMasha=salaryMasha*0.1+salaryMasha;
+        double increaseDenis=salaryDenis*0.1+salaryDenis;
+        double increaseKristina=salaryKristina*0.1+salaryKristina;
+        int salaryDifferencemasha= (int) (increaseMasha-salaryMasha);
+        int salaryDifferencedenis= (int) (increaseDenis-salaryDenis);
+        int salaryDifferencekristina= (int) (increaseKristina-salaryKristina);
+        System.out.println ("Маша теперь получает"+increaseMasha+"рублей. Годовой доход вырос на"+salaryDifferencemasha+"рублей");
+        System.out.println ("Денис теперь получает"+increaseDenis+"рублей. Годовой доход вырос на"+salaryDifferencedenis+"рублей");
+        System.out.println ("Кристина теперь получает"+increaseKristina+"рублей. Годовой доход вырос на"+salaryDifferencekristina+"рублей");
+    }
 }
