@@ -28,7 +28,7 @@ public class Main {
     public static void task2 ()    {
         System.out.println ("задача 2");
         //
-        int firstMan= 27897;
+        short firstMan= 27897;
         byte secondMan=67;
         short  thirdMan=569;
         long fourthMan;
