@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
 
     }
     public static void task1 ()    {
@@ -91,5 +92,25 @@ public class Main {
 
     }
 
+    public static void task6 ()    {
+        System.out.println ("задача 6");
+        byte banana=5;
+        byte milk= 2;
+        byte iceсream=2;
+        byte egg=4;
+        byte oneBanana=80;
+        byte oneiceсream=100;
+        byte oneEgg=70;
+        byte onemilk=105;
+        short total= (short) ((banana*oneBanana)+(milk*onemilk)+(iceсream*oneiceсream)+(egg*oneEgg));
+        System.out.println("Общий вес завтрака "+total+"граммов");
+        short kg= (short) (total*0.1);
+        System.out.println("Общий вес завтрака "+kg+"килограммов");
+
+
+
+
+
+    }
 
 }
