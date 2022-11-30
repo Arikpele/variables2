@@ -117,7 +117,7 @@ public class Main {
         short oneDaysecondttask=  500;
         short firstTask= (short) (totalWeightgr/oneDayfirsttask);
         short secondTask= (short) (totalWeightgr/oneDaysecondttask);
-        float averageDays= (firstTask/secondTask);
+        short averageDays= (short) ((short) (firstTask+secondTask)/2);
         System.out.println(+firstTask+"дней нужно спортсмену,чтобы оставаться в своей весовой категоии,с учетом если он будет терять"+oneDayfirsttask+"граммов,если же он будет терять по"+oneDaysecondttask+"граммов, то ему понадобиться"+secondTask+"дней.В среднем уйдет "+averageDays+"дней на похудение");
 
     }
