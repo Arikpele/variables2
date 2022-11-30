@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
     public static void task1 ()    {
         System.out.println ("задача 1");
@@ -38,5 +39,15 @@ public class Main {
         System.out.println (seventhMAn);
 
 
+    }
+    public static void task3 ()    {
+        System.out.println ("задача 3");
+        byte ludPAv=23;
+                byte annaSer=27;
+                byte ekatAnd=30;
+                        short sheetsPaper=480;
+        byte totalSheets= (byte) (annaSer+ekatAnd+ludPAv);
+        byte sheets= (byte) (sheetsPaper/totalSheets);
+        System.out.println("На каждого ученика рассчитано " + sheets + " листов бумаги");
     }
 }
